@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhangyanran201800906.bwie.com.day07.Activity.ShowActivity">
+    <ImageView
+        android:id="@+id/image_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kkk"/>
+    <xlistview.bawei.com.xlistviewlibrary.XListView
+        android:id="@+id/x_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></xlistview.bawei.com.xlistviewlibrary.XListView>
+</LinearLayout>
